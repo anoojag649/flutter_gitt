@@ -17,6 +17,11 @@ class App extends StatelessWidget {
           centerTitle: true,
           title: Text("My App"),
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('image/diamond (2).png'),
+          ),
+        ),
       ),
     );
   }
